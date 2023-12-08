@@ -1,0 +1,18 @@
+{
+    "name": "aluno/biblioteca",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Biblioteca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kauasilvaa",
+            "email": "kaua60033@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

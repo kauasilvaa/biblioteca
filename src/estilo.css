@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15pt;
+   
+
+}
+
+#menu ul {
+ position: relative;
+ top: 20px;
+ left: 290px;
+
+font-size: 14px;
+font-family:'Times New Roman', Times, serif;
+}
+#menu a {
+
+    text-decoration: none;
+    color: #e20e0e;
+}
+#menu a:hover {transition: .4s; color: rgb(242, 186, 84); }
+
+
+
+#menu li {
+    display: inline;
+    margin:15px;
+    padding:  20px 0 20px;
+}
+
+.row {
+    flex-direction: row;
+    
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.column {
+    flex-direction: column;
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* flex container */
+.container { 
+    max-width: 98%;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #000000;
+}
+.container2 { 
+    max-width: 100px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #000000;
+    max-height: 200px;
+}
+
+/* flex item */
+.item {
+    margin: 5px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 1,25em;
+    border-radius: 15px;
+}
+.item2 {
+    flex : 1;
+    margin : 10px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 15px;
+    border: 1px solid #888888;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item3 {
+flex: 1;
+margin: 5px;
+background: #c9c9c9;
+text-align: center;
+font-size: 1,25em;
+border-radius: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+ body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #241811 ;
+    
+ }
+ 
+ .divsuperior{
+    background-color: #004AAD;
+    width: 99vw;
+    height: 9vh;
+
+ }
+
+    
+ 
+ 
+
+ p{
+    color: yellow;
+ }
+ .sesi{
+    position: relative;
+    top: -10px;
+    left: 10px;
+ }
+ section{
+    position: relative;
+    top: 0px;
+ }
+ p{
+    color: rgb(255, 0, 0);
+ }
+ .contagem{
+    width:100px;
+    height:70px;
+    background-color: #ffffff;
+    position: relative;
+    top: -100px;
+    left: 1200px;
+    }
+    
+    .numero
+    {
+    min-width: 20px;
+    max-width: 55px;
+    background-color: #efefef;
+    color: #000000;
+    font-size: 22px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    }
+    
+    .legenda{
+    height: 25px;
+    line-height: 10px;
+    font-size:12px;
+    background-color: #ffffff;
+    text-align: center;
+    }
+ 
+    .dia{
+        color: rgb(51, 255, 0)  ;
+    }
+    .letra{
+        position:absolute;
+        left: 1200px;
+        top: 223px;
+    }
+    /* Reset de estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da seção FAQ */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do título da FAQ */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de cada item da FAQ */
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Estilo das perguntas */
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo das respostas */
+.answer {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+}
+
+#news-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 80%;
+    max-width: 600px;
+}
+.regras{
+    position: relative;
+    top: -750px;
+    width: 160px;
+    left: -480px;
+    
+        transition: transform 0.2s; /* Adiciona uma transição suave de 0.2 segundos */
+
+}
+.regras:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% quando o mouse estiver sobre ela */
+  }
+  
+  .container {
+    width : 100%;
+    display: flex;
+  }
+  .regrass{
+    position: relative;
+    top: -700px;
+    width: 60px;
+    left: -490px;
+    
+        transition: transform 0.2s; /* Adiciona uma transição suave de 0.2 segundos */
+
+}
+.regrass:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% quando o mouse estiver sobre ela */
+  }
+  .letras{
+    position:absolute;
+    left: 1250px;
+    top: 293px;
+}
+.pas{
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    left: 670px;
+    top: -90px;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave */
+    display: inline-block;
+
+}
+.pas:hover {
+    background-color: #007bff; /* Altera a cor de fundo ao passar o mouse */
+    color: #fff; /* Altera a cor do texto ao passar o mouse */
+    transform: scale(1.1); /* Faz o link aumentar de tamanho ao passar o mouse */
+}
+
+/*codico dos lirvos*/
+.tabela-preco
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: min(1500px, 100%);
+	
+	
+}
+
+.card-preco-header
+{
+	background-color:rgb(0, 0, 0);
+	display: inline-block;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 0 0 20px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: .4s line;
+}
+
+
+.preco sup, .preco span
+{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.card-preco:hover, .card-preco:hover .preco
+{
+	color: #000000;
+}
+
+.card-preco li
+{
+	font-size: 16px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.btn
+{
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 80px;
+	border: 2px solid #0fbcf9;
+	color: #0fbcf9;
+	padding: 18px 40px;
+	border-radius:  8px;
+	text-transform:  uppercase;
+	font-weight: 500;
+	transition:  .3s linear;
+}
+
+.btn:hover
+{
+	background-color: #0fbcf9;
+	color: #fff; 
+}
+
+
+@media screen and (max-width: 1100px)
+{
+	.card-preco
+	{
+		flex: 50%;
+	}
+}
+
+.container1 {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #2980b9;
+} 
