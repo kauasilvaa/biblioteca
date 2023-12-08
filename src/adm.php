@@ -56,7 +56,9 @@
         <a href="listarusuario.php">Listar Usuários</a><br>
         <a href="listarreserva.php">Listar Reservas</a><br>
         <a href="reserva.php">Emprestar</a><br>
+        <a href="../pdf.php">PDF</a><br>
         <a href="login.php">Voltar</a><br>
+
     </nav>
 </body>
 
